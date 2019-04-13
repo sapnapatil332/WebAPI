@@ -21,6 +21,16 @@ namespace WebAPI.Controllers
                 new Employee{EmpID=5,EmpName="Priya",Job="Accountant", Salary="450000",Address="Pune" },
                 new Employee{EmpID=6,EmpName="Albert",Job="Manager", Salary="850000",Address="Canada" }
             };
+
+
+            List<customer> objlist = new List<customer>() {
+                new customer{custId=1,custName="sapna",custIdProduct="Fan" },
+                 new customer{custId=2,custName="Arti",custIdProduct="Fan2" },
+                  new customer{custId=3,custName="Ranjeet",custIdProduct="Fan3" },
+
+
+
+            };
             return list;
         }
 
